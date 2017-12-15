@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="width=360px,user-scalable=no" name="viewport">
+<title>舒你妹方格</title>
+<!-------------------
+Start on:15/10/6
+Done on : 15/10/18
+
+DeepKolos
+
+Bugs:没有完成数据的记录，并且保存在文件中，暂时对于我来说有难度。
+在移动端的浏览器，还没有完整支持css3，所以有些浏览器显示不正常。
+-------------------->
+<link rel="stylesheet" type="text/css" href="./css.css"></link>
+</head>
+<body>
+<!--导航栏-->
+<div id="nav">
+	<!--按钮-->
+	<div id="menuButton">
+	<div></div>
+	<div></div>
+	<div></div>
+	</div>
+	<div id="menu">
+		<!--设置-->
+		<div id="shape">
+			<div class="active"></div>
+			<div id="square">square</div>
+			<div id="triangle">triangle</div>
+			<div id="pentagon">pentagon</div>
+			<div id="hexagon">hexagon</div>
+		</div>
+		<div id="size">
+			<div class="active"></div>
+			<div id="4x4">4x4</div>
+			<div id="5x5">5x5</div>
+			<div id="6x6">6x6</div>
+			<div id="7x7">7x7</div>
+		</div>
+		<div id="symbol">
+			<div class="active"></div>
+			<div id="123">123</div>
+			<div id="abc">abc</div>
+		</div>
+		<div id="difficulty">
+			<div class="active"></div>	
+			<div id="normal">normal</div>
+			<div id="easy">easy</div>
+		</div>
+	</div>	
+	<div id="range">
+	
+	</div>
+	<div id="pk">
+	
+	</div>
+	<div id="restart">
+		<div><div><div><div></div></div></div></div>
+	</div>
+	<div id="share">
+		<div><div><div><div></div></div></div></div>
+	</div>
+</div>
+
+<!--游戏-->
+<div id="page">
+	<div id="start">
+		<p style="color:black;width:300px;font-size:25px;margin:40px auto 20px auto;">
+		就是从小到大按一遍，看看你用多长时间，这是用来锻炼专注力的，听说5X5正常人一般达到8s哦
+		</p>
+		<div id="goGame" style="color:black;height:auto;width:195px;font-size:160px;margin:0 auto;cursor:pointer;">
+		Go
+		</div>
+	</div>
+	<!--游戏主盒子-->
+	<div id="gaming">
+		
+	</div>
+	<div id="suspend">
+		<p style="color:black;width:260px;font-size:25px;margin:40px auto 20px auto;">
+		听说5X5正常人一般达到8s哦，达不到可能你想太多了
+		</p>
+		<div style="color:black;height:auto;width:340px;font-size:100px;cursor:pointer;">
+		Suspend
+		</div>
+	</div>
+	<div id="end">
+		<p style="color:black;width:250px;font-size:40px;margin:40px auto 20px auto;">
+		然而你用时:
+		</p>
+		<div id="used_time" style="color:black;font-size:100px;height:130px;">25.3s</div>
+		<div class="restart" >再来一次</div>
+	</div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="./js.js"></script>

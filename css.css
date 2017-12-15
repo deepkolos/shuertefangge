@@ -1,0 +1,250 @@
+body{
+	width:360px;
+	height:490px;
+	margin:0 0;
+}
+*{
+	transition:all .2s ease-in .0s;
+}
+#nav{
+	width:360px;
+	height:50px;
+	/background:red;
+	z-index:100;
+	margin:0 auto;
+	position:fixed;
+	/overflow:hidden;
+	top:0px;
+}
+#nav div{
+	width:50px;
+	height:50px;
+	/opacity:0.7;
+	float:left;
+}
+#menu{
+	/background:green;
+}
+#menuButton{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:200;
+}
+#menuButton div{
+	width:30px;
+	height:4px;
+	background:black;
+	margin:0 10px 4px 10px;
+	position:relative;
+	transition:all .2s ease-in .0s;
+}
+#menuButton div:first-child{
+	margin-top:15px;
+}
+.menuButton_toggle_top{
+	top:3px;
+	right:3px;
+	width:18px!important;
+	transform:rotate(315deg);
+	
+}
+.menuButton_toggle_bottom{
+	top:-3px;
+	right:3px;
+	width:18px!important;
+	transform:rotate(-315deg);
+}
+#range{
+	/background:blue;
+}
+#pk{
+	/background:pink;
+}
+#restart{
+	/background:yellow;
+	transition:all .2s ease-in .0s;
+	transform:rotate(0deg);
+}
+#restart > div{
+	width:35px;
+	height:35px;
+	background:black;
+	margin:7.5px 7.5px;
+	border-radius:35px;
+}
+#restart > div > div{
+	width:27px;
+	height:27px;
+	background:white;
+	margin:3.5px 3.5px;
+	border-radius:25px;
+}
+#restart > div > div >div{
+	width:15px;
+	height:10px;
+	background:white;
+	margin:7px 17.5px;
+	/border-radius:25px;
+}
+#restart > div > div > div > div {
+	width:11px;
+	height:10px;
+	/background:green;
+	margin:-12px -1px;
+	border-bottom:3px solid black;
+	border-right:3px solid black;
+	/opacity:0.3;
+}
+#share{
+	/background:green;
+	left:110px;
+	position:relative;
+}
+#share > div{
+	width:27px;
+	height:27px;
+	border:3px solid black;
+	margin:10px 10px;
+	border-radius:4px;
+}
+#share > div > div {
+	width:20px;
+	height:20px;
+	/border:3px solid black;
+	margin:-3px 12px;
+	background:white;
+	/border-radius:4px;
+	overflow:hidden;
+}
+#share > div > div > div{
+	width:40px;
+	height:40px;
+	border:3px solid black;
+	margin:0px 0px;
+	/background:red;
+	border-radius:26px;
+}
+#share > div > div > div > div{
+	width:9px;
+	height:9px;
+	border-bottom:3px solid black;
+	border-right:3px solid black;
+	margin:-5px 5px;
+	/background:red;
+	position:absolute;
+	transform:rotate(-70deg);
+}
+#menu div{
+	height:50px;
+}
+#menu div div{
+	width:50px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	/background:orange;
+}
+#shape{
+	width:200px !important ;
+	height:0px !important ;
+	background:red;
+	margin-top:50px;
+	margin-left:-200px;
+	transition:all .2s black .0s;
+	overflow:hidden;
+}
+#shape .active{display:none;}
+#size{
+	width:200px !important ;
+	background:white;
+	margin-left:-200px;
+	transition:all .2s black .1s;
+}
+#symbol{
+	width:100px !important ;
+	background:white;
+	margin-left:-100px;
+	transition:all .2s ease-in .2s;
+}
+#difficulty{
+	width:100px !important ;
+	background:white;
+	margin-left:-100px;
+	transition:all .2s ease-in .3s;
+}
+#size .active{
+	/background:white;
+}
+#symbol .active{
+	/background:white;
+}
+#difficulty .active{
+	/background:white;
+}
+.active{
+	border-bottom:5px solid black ;
+	position:absolute;
+	margin-left:0px;
+	margin-top:-5px;
+	z-index:300;
+}
+
+#page{
+	width:360px;
+	height:490px;
+	/background:pink;
+	overflow:hidden;
+}
+#page div{
+	width:360px;
+	height:420px;
+	/opacity:0.7;
+	padding:70px 0px 0 0px;
+}
+#page *{
+	margin:0 auto 0 auto;
+	width:100%;
+	text-align:center;
+}
+#page div div{padding-top:0px;}
+#page #start{
+	/background:red;
+	margin-top:-0px;
+	transition:opacity .2s ease-out .0s;
+}
+#page #gaming{
+	/background:green;
+	padding:70px 0px 0 10px;
+}
+#page #suspend{
+	/background:blue;
+}
+#page #suspend *{
+	color:black;
+}
+#page #end{
+	/background:purple;
+}
+#page #end .restart{
+	color:black;
+	/width:150px;
+	height:60px;
+	font-size:60px;
+	/background:green;
+	line-height:60px;
+}
+#page #gaming div{
+	color:black;
+	width:80px;
+	height:80px;
+	/background:black;
+	float:left;
+	margin-right:5px;
+	margin-bottom:5px;
+	padding:0;
+	font-size:40px;
+	cursor:pointer;
+	line-height:80px;
+	transition:all .0s ease-in .0s;
+}
